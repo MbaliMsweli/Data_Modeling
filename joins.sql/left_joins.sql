@@ -32,3 +32,5 @@ LEFT JOIN [dbo].[CustomerShipping] AS s
     ON c.CustomerOrderID = s.CustomerOrderID
 
 SELECT * FROM CustomerOrderShippingStatus; 
+
+
